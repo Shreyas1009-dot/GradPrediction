@@ -430,7 +430,7 @@ function InputField({ label, id, value, onChange, placeholder, error, helperText
           value={value}
           onChange={onChange}
           className={cn(
-            "w-full px-4 py-3 rounded-xl border-2 bg-white/50 border-gray-100 focus:border-blue-500 focus:bg-white outline-none transition-all shadow-sm group-hover:border-gray-300",
+            "w-full px-4 py-3 rounded-xl border-2 bg-white/50 border-gray-100 focus:border-blue-500 focus:bg-white text-gray-900 outline-none transition-all shadow-sm group-hover:border-gray-300",
             error && "border-red-300 focus:border-red-500 bg-red-50/50"
           )}
           placeholder={placeholder}
