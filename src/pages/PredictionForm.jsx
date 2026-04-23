@@ -70,7 +70,7 @@ export default function PredictionForm() {
       
       const token = localStorage.getItem('grad_token');
       if (token) {
-        await fetch('http://localhost:5000/api/predictions', {
+        await fetch('/api/predictions', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',

@@ -23,7 +23,7 @@ export default function Dashboard() {
       }
 
       try {
-        const response = await fetch('http://localhost:5000/api/predictions', {
+        const response = await fetch('/api/predictions', {
           headers: { 'Authorization': `Bearer ${token}` }
         });
         
